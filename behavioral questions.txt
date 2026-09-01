@@ -1,13 +1,85 @@
-Talk about a time you had to resolve a conflict in a team.
-Talk about a time you had to explain a technical project to a non-technical stakeholder.
-Talk about a time you failed, and what did you learn from it?
+		Situation: Set the scene and provide necessary context or background details about the specific event. 
+		Task: Describe your specific responsibility or the challenge you needed to address within that situation. 
+		Action: Explain the exact steps you took, highlighting the hard and soft skills used to address the task. 
+		Result: Share the outcome of your actions, ideally using quantifiable metrics to demonstrate impact. 
 
+
+Talk about a time you had to resolve a conflict in a team.
+		Situation: Two team members wanted to use different backend frameworks, Flask vs Springboot.
+		Task: Needed to decide on one framework.
+		Action: weigh the pros and cons of the two options and picked accordingly.
+		Result:  due to our team members mostly being familiar with python, we decided to use flask to speed up development and avoid having to pick up new technologies when not necessary.
+		
+		
+		
+Talk about a time you had to explain a technical project to a non-technical stakeholder.
+		Situation: Needed to explain what our project is doing to a non-technical sponsor.
+		Task: Translate technical jargon (backend, frontend, cloud database, authentication tokens) to project sponsor.
+		Action: Explained to sponsor what each team member is resposible for and what part it plays in the project architecture as whole, keeping everything understandable using laymen's terms.
+		Result:  Sponsor is kept in the loop with the development team and understands our stages of development.
+		
+		
+		
+Talk about a time you failed, and what did you learn from it?
+		Situation: 
+		Task: 
+		Action: 
+		Result:  
+		
+		
+		
 Describe a project you worked on.
-Talk about a time you had to work with a team.
+		Situation: Assigned to create a flight route planning system in Java for Data Structures & Algorithms class.
+		Task: Given a graph of flight routes with cost values assigned to each route, utilize Data Structures & Algorithms concepts to return most cost efficient path from point A to B.
+		Action: Implemented the various algorithms taught in the course. Compared the results.
+		Result: Utilized Dijkstra's algorithm because it uses priority queue to find the absolute cheapest path in a weighted graph.
+		
+		
+		
+How do you stay motivated in an uncertain situation.
+		To stay motivated in an uncertain situation whether it be a layoff, weak job market. the first thing I do is acknowledge that there are many factors that are not under my control.
+		I make sure to stay up to date with evolving technolgies and practices in the industry. Knowing that I am doing whatever is in my power helps me stay motivated.
+		
+		
 Talk about a time you had to learn a new technology quickly.
+		Situation: Assigned to a team to develop a full-stack web application for senior capstone course. 
+		Task: Create a basic functioning web app to present to the client on Week 1 of development phase.
+		Action: Applying previous knowledge of python, javascript, and SQL fundementals, I picked up flask for backend, react for frontend, and postgres for database.
+		Result:  Delivered the client a functioning application to show that development has begun.
+		
+		
+		
 
 Talk about a time where you had to show leadership.
-How do you keep up with a busy schedule.
+		My project team had not yet initiated the development phase, and our client check-in meeting was approaching.
+		We needed to create a minimal viable web app to show to the client and present our project architecture, while keeping the approaching deadline in mind.
+		I designed and developed a basic fullstack web application using Flask, React, Postgres. I picked these technolgies based on my teams' past programming experience.
+		The team continued development using my design choices from my initial contribution, speeding up development due the use of familiar technologies.
+		
+		
+		
+How do you keep up with a busy schedule?
+		During my time at UT Dallas, I was a full-time student while working 20 hours part-time in the retail industry during holiday season.
+		I had to keep up with lectures, coursework deadlines, and exams while having to manage retail operations during busy hours.
+		I learned to manage my time, organized my weekly schedule, addressed any scheduling conflicts early on.
+		as a result, I did well in school and work. Improved my time management skills. Gained experience with working with a tight schedule.
+		
+		
+		
 Talk about a time you were under a lot of pressure, and how did you deal with it?
+		Situation: 
+		Task: 
+		Action: 
+		Result:  
+		
+		
+		
 
 Describe a goal you had set for yourself and how you achieved it.
+		Situation: The cloud industry widely utilizes Kubernetes to manage deployemnt of applications on large compute clusters with redundancy. I saw the value in this skill.
+		Task: I prefer to learn with hands-on experience, I tasked my self with building a small cluster and deploying a containerized application on it.
+		Action: I built a cluster of 2 mini-PC's running Kubernetes (k3s) on Debian Linux and ran a containerized minecraft game server on the cluster.
+		Result:  Gained hands-on experience with Linux Infrastructure management, Containerization, and Kubernetes architecture. 
+		
+		
+		
