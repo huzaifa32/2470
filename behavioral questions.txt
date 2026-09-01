@@ -1,9 +1,3 @@
-		Situation: Set the scene and provide necessary context or background details about the specific event. 
-		Task: Describe your specific responsibility or the challenge you needed to address within that situation. 
-		Action: Explain the exact steps you took, highlighting the hard and soft skills used to address the task. 
-		Result: Share the outcome of your actions, ideally using quantifiable metrics to demonstrate impact. 
-
-
 Talk about a time you had to resolve a conflict in a team.
 		Situation: Two team members wanted to use different backend frameworks, Flask vs Springboot.
 		Task: Needed to decide on one framework.
@@ -21,11 +15,9 @@ Talk about a time you had to explain a technical project to a non-technical stak
 		
 		
 Talk about a time you failed, and what did you learn from it?
-		Situation: 
-		Task: 
-		Action: 
-		Result:  
-		
+		As a full time college student also working part-time, I had an important calculus mid term coming up. Due to my tight schedule, I overlooked the need to plan out my tasks in advanced, which resulted in me not dedicating enough time to prepare.
+		I took the exam without adequate preparation and did not achieve the result I had hoped for. I saw this as an an opportunity to learn from my mistake, and become more organized.
+		From that point onwards, I carefully managed my time with a busy schedule, and allocated time to each of my tasks.
 		
 		
 Describe a project you worked on.
@@ -38,7 +30,7 @@ Describe a project you worked on.
 		
 How do you stay motivated in an uncertain situation.
 		To stay motivated in an uncertain situation whether it be a layoff, weak job market. the first thing I do is acknowledge that there are many factors that are not under my control.
-		I make sure to stay up to date with evolving technolgies and practices in the industry. Knowing that I am doing whatever is in my power helps me stay motivated.
+		I make sure to stay up to date with evolving technolgies and practices in the industry. Knowing that I am trying the best I possibly can helps me stay motivated.
 		
 		
 Talk about a time you had to learn a new technology quickly.
@@ -67,11 +59,10 @@ How do you keep up with a busy schedule?
 		
 		
 Talk about a time you were under a lot of pressure, and how did you deal with it?
-		Situation: 
-		Task: 
-		Action: 
-		Result:  
-		
+		I recently completed my senior capstone project and the date to present our projects to the class was approaching. As team lead, I was selected to present our work to a large audience.
+		As someone who struggles with public speaking, the pressure grew day by day. 
+		I dealt with it by rehearsing my presentation over several days, and presenting it to a smaller group of people. I also thought of any possible follow up questions the audience might ask.
+		By the time the presentation day came, I was confident in my speaking abilites and I was able to communicate my group's project details with ease.
 		
 		
 
