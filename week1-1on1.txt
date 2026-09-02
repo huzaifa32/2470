@@ -1,0 +1,44 @@
+What are the steps of SDLC?
+
+Three D's
+	Design
+	Develop
+	Delivery
+
+RADDTURM
+
+Design
+	Requirements Gathering
+	Analyse Requirements
+	Design
+Develop
+	Develop
+	Testing
+	User Acceptence
+Delivery
+	Release
+	Maintain
+
+
+How is the waterfall methodology distinct from agile?
+	Waterfall typically follows the steps of SDLC in strict order. Going back to previous steps is costly.
+	Agile allows for incremental development development cycles to allow changing requirements and continuous feedback.
+	
+What is zero-shot prompting?
+
+What is the purpose of git branches and pull requests? (please also describe the CLI commands to create/push to a repo)
+	A git branch allows a developer to work on a line of development seperate from the main branch. 
+	It allows for new changes to be made to the project without affecting the main branch.
+	
+	A pull request is a proposal to merge changes from one branch to another branch. 
+	It is used to notify peers that code changes are ready to be reviewed to be merged into the main branch, or another branch. 
+	It allows peers to examine, discuss, and provide feedback on proposed changes.
+	
+	git init - initialize repo
+	git add . - add files from working directory to staging area.
+	git commit - commit changes.
+	
+	git remote add origin <URL> - connect to cloud GitHub repo
+	git push - push committed changes.
+
+
