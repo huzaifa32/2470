@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	scroll-behavior: smooth;
+}
+
+
+
+.inter-body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+	min-height: 100vh;
+	font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	line-height: 1.6;
+	color: #1a1a1a;
+	background-color: #fafafa;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+	font: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin-top: 0;
+}
+
+/* Layout */
+
+.container {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 4rem 1.5rem 6rem;
+}
+
+/* Header */
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+.subtitle {
+	font-size: 1rem;
+	color: #888;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+
+.intro {
+	font-size: 1.1rem;
+	color: #555;
+	margin-bottom: 2.5rem;
+}
+
+/* Section headings */
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-top: 3rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #eee;
+}
+
+h2:first-of-type {
+	margin-top: 0;
+}
+
+/* Entries (experience + projects) */
+
+.entry {
+	margin-bottom: 2.25rem;
+}
+
+.entry:last-child {
+	margin-bottom: 0;
+}
+
+.entry-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+
+h3 {
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+
+.entry-date {
+	font-size: 0.85rem;
+	color: #888;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+/* Project link */
+
+.project-link {
+	display: inline-block;
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: #0066ff;
+	text-decoration: none;
+	margin-bottom: 0.75rem;
+}
+
+.other-link {
+	display: inline-block;
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: #0066ff;
+	text-decoration: none;
+	margin-bottom: 0.75rem;
+    justify-content: end;
+}
+.other-link:hover {
+	text-decoration: underline;
+}
+
+.project-link:hover {
+	text-decoration: underline;
+}
+
+/* Tags */
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0.5rem 0 0.9rem;
+}
+
+.tag {
+	font-size: 0.75rem;
+	font-weight: 600;
+	padding: 0.2rem 0.6rem;
+	border-radius: 999px;
+	background: #f0f0f0;
+	color: #555;
+}
+
+/* Lists */
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+li {
+	position: relative;
+	padding-left: 1.25rem;
+	margin-bottom: 0.4rem;
+	color: #444;
+}
+
+li::before {
+	content: "→";
+	position: absolute;
+	left: 0;
+	color: #999;
+}
+
+li:last-child {
+	margin-bottom: 0;
+}
+
+/* Small screens */
+
+@media (max-width: 480px) {
+	.container {
+		padding: 2.5rem 1.25rem 4rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+}
