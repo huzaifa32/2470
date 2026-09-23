@@ -1,81 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 	<link rel="stylesheet" href="style.css">
+    <script defer src="home.js"></script>
 </head>
+
+
 <body>
-	<div class="container">
+    <div class="navbar">
+        <a class="active" href="home.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+    </div>
 
-		<h1>Syed Huzaifa Nabeel</h1>
-		<p class="subtitle">Software Engineer · Full-Stack Development</p>
+    <div class="container">
 
-		<p class="intro">
-			Software engineer with a foundation in full-stack development.
-			I've worked on projects using Java, Flask, React, and PostgreSQL.
-			UT Dallas grad, always building. Outside of code,
-			you'll usually find me behind a camera or under the hood of a car.
-		</p>
-        <a class="other-link" href="https://www.linkedin.com/in/shnabeel/">LinkedIn →</a>
+        <h2 class="title">Home</h2>
+        <div class="buttonWrapper">
+            <button id="getTimeButton">Get Time (Central)</button>
+        </div>
+        <p id="timeDisplay"></p>
 
-		<h2>Experience</h2>
+    </div>
 
-		<div class="entry">
-			<div class="entry-header">
-				<h3>Revature - Java Full-Stack Trainee</h3>
-			</div>
-			<div class="tags">
-				<span class="tag">Java</span>
-				<span class="tag">Maven</span>
-				<span class="tag">PostgreSQL</span>
-				<span class="tag">Angular</span>
-			</div>
-			<ul>
-				<li>Completing Revature's Java Full Stack developer training for Cognizant, building projects with Java, Maven, PostgreSQL, Angular</li>
-			</ul>
-		</div>
 
-		<div class="entry">
-			<div class="entry-header">
-				<h3>SecureIVAI - Software Engineer Intern</h3>
-			</div>
-			<div class="tags">
-				<span class="tag">Flask</span>
-				<span class="tag">Python</span>
-				<span class="tag">PostgreSQL</span>
-			</div>
-			<ul>
-				<li>Led an Agile team of 6 to develop an internal platform that evaluated local LLM vulnerabilities</li>
-				<li>Engineered backend services in Flask (Python) to automate vulnerability detection and compliance checks</li>
-				<li>Designed PostgreSQL schemas and built data pipelines for user profiles, model test results, and audit logs</li>
-			</ul>
-		</div>
-
-		<h2>Projects</h2>
-
-		<div class="entry">
-			<div class="entry-header">
-				<h3>Bank CLI App</h3>
-			</div>
-			<a class="project-link" href="https://github.com/huzaifa32/P0-CLI-Bank">View on GitHub →</a>
-			<div class="tags">
-				<span class="tag">Java</span>
-				<span class="tag">PostgreSQL</span>
-				<span class="tag">Maven</span>
-				<span class="tag">JDBC</span>
-			</div>
-			<ul>
-				<li>Built a Java/PostgreSQL banking CLI using a layered architecture (API/Service/DAO) using Maven</li>
-				<li>Implemented atomic JDBC transactions to keep deposits, withdrawals, and transfers consistent</li>
-				<li>Designed a relational schema with PIN authentication and full transaction history</li>
-			</ul>
-		</div>
-
-	</div>
+    
+    
+    
+    
+    
 </body>
 </html>
